@@ -24,21 +24,25 @@ const Jobbo = db.define('jobbo', {
     ),
     allowNull: false
   },
-  // REMOVE ALL THE BELOW AND JOIN ON MILESTONE???
   behavioralScreen: {
-    type: Sequelize.BOOLEAN
+    type: Sequelize.DATE,
+    defaultValue: null
   },
   technicalScreen: {
-    type: Sequelize.BOOLEAN
+    type: Sequelize.DATE,
+    defaultValue: null
   },
   codingChallenge: {
-    type: Sequelize.BOOLEAN
+    type: Sequelize.DATE,
+    defaultValue: null
   },
   onsite: {
-    type: Sequelize.BOOLEAN
+    type: Sequelize.DATE,
+    defaultValue: null
   },
   offer: {
-    type: Sequelize.BOOLEAN
+    type: Sequelize.DATE,
+    defaultValue: null
   }
 })
 
