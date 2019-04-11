@@ -6,3 +6,4 @@
 export {default as Navbar} from './Navbar'
 export {Header} from './Header'
 export {default as Pie} from './Pie'
+export {Resources} from './Resources'
