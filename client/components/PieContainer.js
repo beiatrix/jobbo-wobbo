@@ -49,7 +49,10 @@ export default class PieContainer extends Component {
   async componentDidMount() {
     // get jobbos from server
     const res = await axios.get('/api/jobbos')
-    console.log(res.data)
+    const jobbos = res.data
+    // console.log(jobbos)
+    this.setState({jobbos})
+    console.log('state', this.state)
   }
 
   render() {
