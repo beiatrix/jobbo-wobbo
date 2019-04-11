@@ -1,6 +1,6 @@
 const User = require('./user')
 const Jobbo = require('./jobbo')
-// const Milestone = require('./milestone')
+
 /**
  * If we had any associations to make, this would be a great place to put them!
  * ex. if we had another model called BlogPost, we might say:
@@ -19,6 +19,4 @@ const Jobbo = require('./jobbo')
 module.exports = {
   User,
   Jobbo
-  // THIS IS WHERE THE BUG IS!!!!
-  // Milestone
 }

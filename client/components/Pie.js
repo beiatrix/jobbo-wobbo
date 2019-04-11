@@ -1,6 +1,6 @@
 import React, {Component} from 'react'
 import {ResponsivePie} from 'nivo'
-// import {getJobbosFromServer} from '../store'
+import {getJobbosFromServer} from '../store'
 import {connect} from 'react-redux'
 
 const dummyData = [
@@ -39,10 +39,10 @@ const dummyData = [
 // make sure parent container have a defined height when using responsive component,
 // otherwise height will be 0 and no chart will be rendered.
 // website examples showcase many properties, you'll often use just a few of them.
-export default class Pie extends Component {
+class Pie extends Component {
   async componentDidMount() {
-    // await this.props.getJobbosFromServer()
-    // console.log(this.state.jobbos)
+    await this.props.getJobbosFromServer()
+    console.log(this.state.jobbos)
   }
 
   render() {
@@ -172,12 +172,12 @@ export default class Pie extends Component {
   }
 }
 
-// const mapStateToProps = state => ({
-//   jobbos: state.jobbos
-// })
+const mapStateToProps = state => ({
+  jobbos: state.jobbos
+})
 
-// const mapDispatchToProps = dispatch => ({
-//   getJobbosFromServer: () => dispatch(getJobbosFromServer())
-// })
+const mapDispatchToProps = dispatch => ({
+  getJobbosFromServer: () => dispatch(getJobbosFromServer())
+})
 
-// export default connect(mapStateToProps, mapDispatchToProps)(Pie)
+export default connect(mapStateToProps, mapDispatchToProps)(Pie)
