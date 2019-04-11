@@ -52,23 +52,9 @@ export default class Pie extends Component {
     // get jobbos from server
     const res = await axios.get('/api/jobbos')
     console.log(res.data)
-
-    // const jobbos = await this.props.getJobbosFromServer()
-    // console.log('jobbyz', jobbos)
-    // console.log('before', this.state)
-    // this.setState({
-    //   jobbos
-    // })
-    // console.log('after', this.state)
-    // console.log('props', this.props)
-
-    // console.log(this.props.jobbos)
   }
 
   render() {
-    // const {jobbos} = this.state
-    // console.log('WHAT ARE MY PROPS', this.props)
-
     return (
       <ResponsivePie
         data={dummyData}
