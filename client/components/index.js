@@ -5,5 +5,5 @@
  */
 export {default as Navbar} from './Navbar'
 export {Header} from './Header'
-export {default as Pie} from './Pie'
+export {default as PieContainer} from './PieContainer'
 export {Resources} from './Resources'

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import {Navbar, Header, Pie, Resources} from './components'
+import {Navbar, Header, PieContainer, Resources} from './components'
 // import Routes from './routes'
 
 const App = () => {
@@ -9,7 +9,7 @@ const App = () => {
       <Navbar />
       <Header />
       <div style={{height: '80vh'}}>
-        <Pie />
+        <PieContainer />
       </div>
       <Resources />
       {/* <Routes /> */}
