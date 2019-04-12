@@ -6,7 +6,7 @@ import {Navbar, Header, PieContainer, Resources} from './components'
 const App = () => {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <Header />
       {/*
       overall stats
