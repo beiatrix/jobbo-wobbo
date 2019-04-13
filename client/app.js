@@ -1,6 +1,6 @@
 import React from 'react'
 
-import {Navbar, Header, PieContainer, Resources} from './components'
+import {Navbar, Header, Overview, PieContainer, Resources} from './components'
 // import Routes from './routes'
 
 const App = () => {
@@ -8,6 +8,7 @@ const App = () => {
     <div>
       <Navbar />
       <Header />
+      <Overview />
 
       {/*
       overall stats
