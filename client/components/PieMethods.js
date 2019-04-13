@@ -1,47 +1,16 @@
 import React from 'react'
 import {ResponsivePie} from 'nivo'
-
-const dummyData = [
-  {
-    id: 'python',
-    label: 'python',
-    value: 135,
-    color: 'hsl(303, 70%, 50%)'
-  },
-  {
-    id: 'javascript',
-    label: 'javascript',
-    value: 63,
-    color: 'hsl(3, 70%, 50%)'
-  },
-  {
-    id: 'elixir',
-    label: 'elixir',
-    value: 391,
-    color: 'hsl(107, 70%, 50%)'
-  },
-  {
-    id: 'hack',
-    label: 'hack',
-    value: 518,
-    color: 'hsl(148, 70%, 50%)'
-  },
-  {
-    id: 'ruby',
-    label: 'ruby',
-    value: 595,
-    color: 'hsl(341, 70%, 50%)'
-  }
-]
+import {methodData} from '../utils'
 
 // make sure parent container have a defined height when using responsive component,
 // otherwise height will be 0 and no chart will be rendered.
 // website examples showcase many properties, you'll often use just a few of them.
 export const PieMethods = props => {
   const {data} = props
+
   return (
     <ResponsivePie
-      data={data}
+      data={methodData(data)}
       margin={{
         top: 40,
         right: 80,

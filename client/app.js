@@ -1,29 +1,36 @@
-import React from 'react'
+import React, {Component} from 'react'
+import axios from 'axios'
 
-import {Navbar, Header, Overview, PieContainer, Resources} from './components'
-// import Routes from './routes'
+import {Navbar, Header, Overview, Resources, PieMethods} from './components'
 
-const App = () => {
-  return (
-    <div>
-      <Navbar />
-      <Header />
-      <Overview />
+export default class App extends Component {
+  constructor() {
+    super()
+    this.state = {
+      jobbos: []
+    }
+  }
 
-      {/*
-      overall stats
-      - I was a candidate for X companies
-      - from DATE to DATE
-      - for roles such as software engineer', 'fullstack engineer,' and 'front-end engineer.'
+  async componentDidMount() {
+    // get jobbos from server
+    const res = await axios.get('/api/jobbos')
+    const jobbos = res.data
+    // console.log(jobbos)
+    this.setState({jobbos})
+    // console.log('state', this.state)
+    // console.log('did it work?', methodData(this.state.jobbos))
+  }
 
-      - I had X introductory/behavioral phone calls
-      - X technical remote screens
-      - X coding challenges
-      - X on-site interviews
-      - and received X offers.
-      */}
+  render() {
+    const {jobbos} = this.state
+    console.log('hi', jobbos)
+    return (
+      <div>
+        <Navbar />
+        <Header />
+        <Overview />
 
-      {/*
+        {/*
       PIE CHART
       These were the methods I used to apply to companies.
       'recruiter contacted me',
@@ -37,23 +44,23 @@ const App = () => {
       'triplebyte'
       */}
 
-      {/*
+        {/*
       RADAR
       the only methods of application that led to ANY next steps at all (whether a phone call, technical screen, or even on-site) were:
       */}
 
-      {/* ===== THESE TWO BELOW, SIDE BY SIDE? ===== */}
-      {/*
+        {/* ===== THESE TWO BELOW, SIDE BY SIDE? ===== */}
+        {/*
       CALENDAR
       this calendar displays my activity over time
       */}
 
-      {/*
+        {/*
       MAP
       this map shows where my on-site interviews were
       */}
 
-      {/*
+        {/*
       INSIGHTS GAINED
       fastest way to propel yourself forward in job search is
       1) by reaching out / getting through to real people - whether at hiring/networking events, or through recruiters reaching out to me. (SEO my linkedin, use buzzwords, change your title) cold applications on linkedin or angel list have an enormously lower turnout / probability of next steps.
@@ -70,7 +77,7 @@ const App = () => {
 
       */}
 
-      {/*
+        {/*
       MAYBE NOT THIS
       types of questions asked at on-sites?
       - basic JS
@@ -80,13 +87,13 @@ const App = () => {
       - system design
       */}
 
-      <div style={{height: '80vh'}}>
-        <PieContainer />
-      </div>
-      <Resources />
-      {/* <Routes /> */}
-    </div>
-  )
-}
+        <div style={{height: '80vh'}}>
+          <PieMethods data={jobbos} />
+        </div>
 
-export default App
+        <Resources />
+        {/* <Routes /> */}
+      </div>
+    )
+  }
+}
