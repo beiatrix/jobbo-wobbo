@@ -1,5 +1,6 @@
 import React, {Component} from 'react'
-import {Pie} from './Pie'
+import {PieMethods} from './PieMethods'
+import {methodData} from '../utils'
 import axios from 'axios'
 
 const dummyData = [
@@ -53,9 +54,10 @@ export default class PieContainer extends Component {
     // console.log(jobbos)
     this.setState({jobbos})
     console.log('state', this.state)
+    console.log('did it work?', methodData(this.state.jobbos))
   }
 
   render() {
-    return <Pie />
+    return <PieMethods data={this.state.jobbos} />
   }
 }

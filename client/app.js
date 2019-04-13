@@ -6,22 +6,25 @@ import {Navbar, Header, PieContainer, Resources} from './components'
 const App = () => {
   return (
     <div>
-      {/* <Navbar /> */}
+      <Navbar />
       <Header />
+
       {/*
       overall stats
-      - applied to X companies
+      - I applied to X companies
       - from DATE to DATE
-      - had X initial phone calls
+      - in roles such as software engineer', 'fullstack engineer,' and 'front-end engineer.'
+
+      - I had X introductory/behavioral phone calls
       - X technical remote screens
       - X coding challenges
-      - X on-sites
-      - and X offers
+      - X on-site interviews
+      - and received X offers.
       */}
 
       {/*
       PIE CHART
-      methods of application
+      These were the methods I used to apply to companies.
       'recruiter contacted me',
       'linkedin - easy apply',
       'hiring day [fullstack]',

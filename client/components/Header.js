@@ -13,23 +13,6 @@ export const Header = props => {
           this is a datavis of my job search in 2019.
         </h2>
       </div>
-      {/* <p>i applied to 99 jobs</p>
-      <p>
-        in roles such as 'software engineer', 'fullstack engineer,' and
-        'front-end engineer'
-      </p>
-      <p>from [date] to [date]</p>
-      <p>
-        via 9 different methods (i.e. hiring day events, linkedin, angellist,
-        internal referrals, etc.).
-      </p>
-      <p>out of 99 applications,</p>
-      <p>i did x behavioral phone screens</p>
-      <p>x technical remote screens</p>
-      <p>x coding challenges</p>
-      <p>x on-site interviews</p>
-      <p>and received x offers.</p>
-      <p>this is my journey.</p> */}
     </header>
   )
 }
