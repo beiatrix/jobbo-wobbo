@@ -13,10 +13,10 @@ const Jobbo = db.define('jobbo', {
   method: {
     type: Sequelize.ENUM(
       'recruiter contacted me',
-      'linkedin - easy apply',
-      'hiring day [fullstack]',
       'online apply',
+      'linkedin - easy apply',
       'angel list',
+      'hiring day [fullstack]',
       'hiring day [womenhack]',
       'internal reference',
       'coding challenge',

@@ -583,6 +583,96 @@ const jobbos = [
     codingChallenge: null,
     onsite: '2019-04-19',
     offer: true
+  },
+  {
+    company: 'Nylas',
+    dateApplied: '2019-03-25',
+    method: 'triplebyte',
+    behavioralScreen: '2019-03-28',
+    technicalScreen: null,
+    codingChallenge: null,
+    onsite: null,
+    offer: false
+  },
+  {
+    company: 'Ladder',
+    dateApplied: '2019-03-25',
+    method: 'triplebyte',
+    behavioralScreen: '2019-03-28',
+    technicalScreen: null,
+    codingChallenge: null,
+    onsite: '2019-04-09',
+    offer: false
+  },
+  {
+    company: 'SoLo Funds',
+    dateApplied: '2019-03-25',
+    method: 'triplebyte',
+    behavioralScreen: null,
+    technicalScreen: null,
+    codingChallenge: null,
+    onsite: null,
+    offer: false
+  },
+  {
+    company: 'Pathlight',
+    dateApplied: '2019-03-27',
+    method: 'triplebyte',
+    behavioralScreen: null,
+    technicalScreen: null,
+    codingChallenge: null,
+    onsite: null,
+    offer: false
+  },
+  {
+    company: 'Pinterest',
+    dateApplied: '2019-03-28',
+    method: 'online apply',
+    behavioralScreen: null,
+    technicalScreen: '2019-04-14',
+    codingChallenge: '2019-04-03',
+    onsite: null,
+    offer: false
+  },
+  {
+    company: 'Open Phone',
+    dateApplied: '2019-03-28',
+    method: 'triplebyte',
+    behavioralScreen: null,
+    technicalScreen: null,
+    codingChallenge: null,
+    onsite: null,
+    offer: false
+  },
+  {
+    company: 'Girlboss',
+    dateApplied: '2019-03-28',
+    method: 'triplebyte',
+    behavioralScreen: '2019-04-01',
+    technicalScreen: null,
+    codingChallenge: null,
+    onsite: '2019-04-18',
+    offer: false
+  },
+  {
+    company: 'Bloomberg',
+    dateApplied: '2019-04-01',
+    method: 'recruiter contacted me',
+    behavioralScreen: '2019-04-04',
+    technicalScreen: null,
+    codingChallenge: null,
+    onsite: null,
+    offer: false
+  },
+  {
+    company: 'American Express',
+    dateApplied: '2019-04-04',
+    method: 'recruiter contacted me',
+    behavioralScreen: null,
+    technicalScreen: null,
+    codingChallenge: null,
+    onsite: null,
+    offer: false
   }
 ]
 
