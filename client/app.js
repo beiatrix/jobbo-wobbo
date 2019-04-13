@@ -11,9 +11,9 @@ const App = () => {
 
       {/*
       overall stats
-      - I applied to X companies
+      - I was a candidate for X companies
       - from DATE to DATE
-      - in roles such as software engineer', 'fullstack engineer,' and 'front-end engineer.'
+      - for roles such as software engineer', 'fullstack engineer,' and 'front-end engineer.'
 
       - I had X introductory/behavioral phone calls
       - X technical remote screens
@@ -37,8 +37,19 @@ const App = () => {
       */}
 
       {/*
-      BAR CHART?
+      RADAR
       the only methods of application that led to ANY next steps at all (whether a phone call, technical screen, or even on-site) were:
+      */}
+
+      {/* ===== THESE TWO BELOW, SIDE BY SIDE? ===== */}
+      {/*
+      CALENDAR
+      this calendar displays my activity over time
+      */}
+
+      {/*
+      MAP
+      this map shows where my on-site interviews were
       */}
 
       {/*

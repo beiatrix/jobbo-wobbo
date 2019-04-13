@@ -41,8 +41,8 @@ const Jobbo = db.define('jobbo', {
     defaultValue: null
   },
   offer: {
-    type: Sequelize.DATE,
-    defaultValue: null
+    type: Sequelize.BOOLEAN,
+    defaultValue: false
   }
 })
 
