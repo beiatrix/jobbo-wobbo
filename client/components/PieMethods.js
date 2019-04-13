@@ -38,9 +38,10 @@ const dummyData = [
 // otherwise height will be 0 and no chart will be rendered.
 // website examples showcase many properties, you'll often use just a few of them.
 export const PieMethods = props => {
+  const {data} = props
   return (
     <ResponsivePie
-      data={dummyData}
+      data={data}
       margin={{
         top: 40,
         right: 80,

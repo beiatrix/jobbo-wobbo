@@ -53,11 +53,11 @@ export default class PieContainer extends Component {
     const jobbos = res.data
     // console.log(jobbos)
     this.setState({jobbos})
-    console.log('state', this.state)
-    console.log('did it work?', methodData(this.state.jobbos))
+    // console.log('state', this.state)
+    // console.log('did it work?', methodData(this.state.jobbos))
   }
 
   render() {
-    return <PieMethods data={this.state.jobbos} />
+    return <PieMethods data={methodData(this.state.jobbos)} />
   }
 }
