@@ -1,7 +1,14 @@
 import React, {Component} from 'react'
 import axios from 'axios'
 
-import {Navbar, Header, Overview, Resources, PieMethods} from './components'
+import {
+  Navbar,
+  Header,
+  Overview,
+  Resources,
+  PieMethods,
+  Bar
+} from './components'
 
 export default class App extends Component {
   constructor() {
@@ -31,7 +38,7 @@ export default class App extends Component {
 
         {/*
       PIE CHART
-      These were the methods I used to apply to companies.
+      These were the methods I used to apply, whether actively or passively, to companies.
       'recruiter contacted me',
       'linkedin - easy apply',
       'hiring day [fullstack]',
@@ -86,11 +93,16 @@ export default class App extends Component {
       - system design
       */}
 
-        <div style={{height: '80vh'}}>
+        <section style={{height: '80vh'}}>
           <PieMethods data={jobbos} />
-        </div>
+        </section>
+
+        <section style={{height: '80vh'}}>
+          <Bar />
+        </section>
 
         <Resources />
+
         {/* <Routes /> */}
       </div>
     )

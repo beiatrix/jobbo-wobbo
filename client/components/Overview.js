@@ -4,7 +4,7 @@ import {getMetric} from '../utils'
 
 export const Overview = props => {
   const {data} = props
-  console.log(data.length)
+
   return (
     <section>
       <p>I applied to roles such as Software Engineer,</p>
