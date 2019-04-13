@@ -478,7 +478,7 @@ const jobbos = [
     company: 'Madison Logic',
     dateApplied: '2019-03-20',
     method: 'linkedin - easy apply',
-    behavioralScreen: null,
+    behavioralScreen: '2019-04-15',
     technicalScreen: null,
     codingChallenge: null,
     onsite: null,
@@ -572,7 +572,7 @@ const jobbos = [
     technicalScreen: null,
     codingChallenge: null,
     onsite: '2019-04-10',
-    offer: true
+    offer: false
   },
   {
     company: 'Ruggable',
@@ -582,7 +582,7 @@ const jobbos = [
     technicalScreen: null,
     codingChallenge: null,
     onsite: '2019-04-19',
-    offer: true
+    offer: false
   },
   {
     company: 'Nylas',

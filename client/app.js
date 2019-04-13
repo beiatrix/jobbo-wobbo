@@ -23,12 +23,11 @@ export default class App extends Component {
 
   render() {
     const {jobbos} = this.state
-    console.log('hi', jobbos)
     return (
       <div>
         <Navbar />
         <Header />
-        <Overview />
+        <Overview data={jobbos} />
 
         {/*
       PIE CHART

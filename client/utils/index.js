@@ -19,3 +19,12 @@ export const methodData = dbData => {
   }
   return methods
 }
+
+// input: array, key
+// output: frequency of key in array, for which value is not null
+export const getMetric = (data, key) => {
+  return data.reduce((acc, el) => {
+    if (el[key]) acc++
+    return acc
+  }, 0)
+}
