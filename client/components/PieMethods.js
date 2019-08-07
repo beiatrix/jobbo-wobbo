@@ -26,14 +26,14 @@ export const PieMethods = props => {
       borderColor="inherit:darker(0.2)"
       radialLabelsSkipAngle={10}
       radialLabelsTextXOffset={6}
-      radialLabelsTextColor="#333333"
+      radialLabelsTextColor="white"
       radialLabelsLinkOffset={0}
       radialLabelsLinkDiagonalLength={16}
       radialLabelsLinkHorizontalLength={24}
       radialLabelsLinkStrokeWidth={1}
       radialLabelsLinkColor="inherit"
       slicesLabelsSkipAngle={10}
-      slicesLabelsTextColor="#333333"
+      slicesLabelsTextColor="white"
       animate={true}
       motionStiffness={90}
       motionDamping={15}

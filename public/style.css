@@ -36,3 +36,8 @@ p {
 a:hover {
   opacity: 1;
 }
+
+span {
+  font-size: 1.5rem;
+  color: var(--highlight);
+}

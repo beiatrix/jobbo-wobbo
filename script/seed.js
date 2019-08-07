@@ -27,7 +27,7 @@ const jobbos = [
   {
     company: 'The Atlantic',
     dateApplied: '2019-02-14',
-    method: 'hiring day [fullstack]',
+    method: 'recruiting event [fullstack]',
     behavioralScreen: null,
     technicalScreen: null,
     codingChallenge: null,
@@ -37,7 +37,7 @@ const jobbos = [
   {
     company: 'Annalect',
     dateApplied: '2019-02-14',
-    method: 'hiring day [fullstack]',
+    method: 'recruiting event [fullstack]',
     behavioralScreen: null,
     technicalScreen: null,
     codingChallenge: null,
@@ -47,7 +47,7 @@ const jobbos = [
   {
     company: 'Cedrus',
     dateApplied: '2019-02-14',
-    method: 'hiring day [fullstack]',
+    method: 'recruiting event [fullstack]',
     behavioralScreen: null,
     technicalScreen: null,
     codingChallenge: null,
@@ -57,7 +57,7 @@ const jobbos = [
   {
     company: 'JP Morgan',
     dateApplied: '2019-02-14',
-    method: 'hiring day [fullstack]',
+    method: 'recruiting event [fullstack]',
     behavioralScreen: null,
     technicalScreen: null,
     codingChallenge: null,
@@ -67,7 +67,7 @@ const jobbos = [
   {
     company: 'Nomura',
     dateApplied: '2019-02-14',
-    method: 'hiring day [fullstack]',
+    method: 'recruiting event [fullstack]',
     behavioralScreen: null,
     technicalScreen: null,
     codingChallenge: null,
@@ -77,7 +77,7 @@ const jobbos = [
   {
     company: 'Knotel',
     dateApplied: '2019-02-14',
-    method: 'hiring day [fullstack]',
+    method: 'recruiting event [fullstack]',
     behavioralScreen: null,
     technicalScreen: null,
     codingChallenge: null,
@@ -87,7 +87,7 @@ const jobbos = [
   {
     company: 'Simon',
     dateApplied: '2019-02-14',
-    method: 'hiring day [fullstack]',
+    method: 'recruiting event [fullstack]',
     behavioralScreen: null,
     technicalScreen: null,
     codingChallenge: null,
@@ -367,7 +367,7 @@ const jobbos = [
   {
     company: 'Haven Life',
     dateApplied: '2019-03-07',
-    method: 'hiring day [womenhack]',
+    method: 'recruiting event [womenhack]',
     behavioralScreen: null,
     technicalScreen: null,
     codingChallenge: null,
@@ -377,7 +377,7 @@ const jobbos = [
   {
     company: 'New York Times',
     dateApplied: '2019-03-07',
-    method: 'hiring day [womenhack]',
+    method: 'recruiting event [womenhack]',
     behavioralScreen: '2019-03-14',
     technicalScreen: null,
     codingChallenge: null,
@@ -387,7 +387,7 @@ const jobbos = [
   {
     company: 'Peloton',
     dateApplied: '2019-03-07',
-    method: 'hiring day [womenhack]',
+    method: 'recruiting event [womenhack]',
     behavioralScreen: null,
     technicalScreen: null,
     codingChallenge: null,
@@ -397,7 +397,7 @@ const jobbos = [
   {
     company: 'Squarespace',
     dateApplied: '2019-03-07',
-    method: 'hiring day [womenhack]',
+    method: 'recruiting event [womenhack]',
     behavioralScreen: null,
     technicalScreen: null,
     codingChallenge: null,

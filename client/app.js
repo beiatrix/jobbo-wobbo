@@ -41,6 +41,22 @@ export default () => {
       'triplebyte'
       */}
 
+      <section>
+        <p>These were the methods I used to apply, whether actively or passively, to companies.
+      'recruiter contacted me',
+      'linkedin - easy apply',
+      'hiring day [fullstack]',
+      'online apply',
+      'angel list',
+      'hiring day [womenhack]',
+      'internal reference',
+      'coding challenge',
+      'triplebyte'</p>
+        <div style={{height: '60vh'}}>
+          <PieMethods data={jobbos} />
+        </div>
+      </section>
+
         {/*
       RADAR
       the only methods of application that led to ANY next steps at all (whether a phone call, technical screen, or even on-site) were:
@@ -74,20 +90,6 @@ export default () => {
 
       */}
 
-        {/*
-      MAYBE NOT THIS
-      types of questions asked at on-sites?
-      - basic JS
-      - hands-on coding
-      - whiteboard algo
-      - object-oriented design
-      - system design
-      */}
-
-        <section style={{height: '60vh'}}>
-          <PieMethods data={jobbos} />
-        </section>
-
         <section style={{height: '60vh'}}>
           <Bar />
         </section>
@@ -105,5 +107,6 @@ const StyledApp = styled.main`
 
   #appContainer {
     width: 50vw;
+    overflow: visible;
   }
 `

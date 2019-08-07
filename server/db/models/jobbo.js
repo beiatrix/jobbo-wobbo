@@ -16,8 +16,8 @@ const Jobbo = db.define('jobbo', {
       'online apply',
       'linkedin - easy apply',
       'angel list',
-      'hiring day [fullstack]',
-      'hiring day [womenhack]',
+      'recruiting event [fullstack]',
+      'recruiting event [womenhack]',
       'internal reference',
       'coding challenge',
       'triplebyte'

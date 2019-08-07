@@ -16,7 +16,7 @@ export const Header = props => {
 }
 
 const StyledHeader = styled.header`
-  height: 50vh;
+  height: 40vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
