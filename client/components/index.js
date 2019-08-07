@@ -5,6 +5,6 @@
  */
 export { Header } from './Header'
 export { Overview } from './Overview'
-export { PieMethods } from './PieMethods'
+export { PieContainer } from './PieContainer'
 export { Resources } from './Resources'
 export { Bar } from './Bar'

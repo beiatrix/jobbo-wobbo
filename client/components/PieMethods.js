@@ -5,8 +5,7 @@ import {methodData} from '../utils'
 // make sure parent container have a defined height when using responsive component,
 // otherwise height will be 0 and no chart will be rendered.
 // website examples showcase many properties, you'll often use just a few of them.
-export const PieMethods = props => {
-  const {data} = props
+export const PieMethods = ({ data }) => {
   console.log(data)
   return (
     <ResponsivePie

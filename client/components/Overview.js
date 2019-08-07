@@ -17,11 +17,12 @@ export const Overview = props => {
       <p>My job search began on <span>February 11, 2019</span> and ended on <span>May 13, 2019</span>, my first day as a software engineer.</p>
       <br />
       <p>Out of <span>{data.length}</span> companies, I received <span>{behavioralScreens}</span> initial phone calls, 
-      <span>{technicalScreens + codingChallenges}</span>{' '} remote coding challenges or technical screens <span>{onsites}</span> on-site interviews and <span>{offers}</span> offers.</p>
+      <span>{technicalScreens + codingChallenges}</span>{' '} remote coding challenges / technical screens, <span>{onsites}</span> on-site interviews and <span>{offers}</span> offers.</p>
     </StyledOverview>
   )
 }
 
 const StyledOverview = styled.section`
   height: 30vh;
+  margin-bottom: 2rem;
 `
