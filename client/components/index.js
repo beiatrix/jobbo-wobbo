@@ -3,7 +3,6 @@
  * This way, we can import all of our components from the same place, rather than
  * having to figure out which file they belong to!
  */
-export {Navbar} from './Navbar'
 export {Header} from './Header'
 export {Overview} from './Overview'
 export {PieMethods} from './PieMethods'

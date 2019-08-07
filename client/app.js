@@ -1,8 +1,8 @@
 import React, {Component} from 'react'
 import axios from 'axios'
+import styled from 'styled-components'
 
 import {
-  Navbar,
   Header,
   Overview,
   Resources,
@@ -31,8 +31,8 @@ export default class App extends Component {
   render() {
     const {jobbos} = this.state
     return (
-      <div>
-        <Navbar />
+      <StyledApp>
+        <div id="appContainer">
         <Header />
         <Overview data={jobbos} />
 
@@ -104,7 +104,18 @@ export default class App extends Component {
         <Resources />
 
         {/* <Routes /> */}
-      </div>
+        </div>
+      </StyledApp>
     )
   }
 }
+
+const StyledApp = styled.main`
+  border: 3px solid blue;
+  display: flex;
+  justify-content: center;
+
+  #appContainer {
+    border: 3px solid red;
+  }
+`
