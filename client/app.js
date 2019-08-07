@@ -30,6 +30,7 @@ export default class App extends Component {
 
   render() {
     const {jobbos} = this.state
+
     return (
       <StyledApp>
         <div id="appContainer">
@@ -93,17 +94,15 @@ export default class App extends Component {
       - system design
       */}
 
-        <section style={{height: '80vh'}}>
+        <section style={{height: '60vh'}}>
           <PieMethods data={jobbos} />
         </section>
 
-        <section style={{height: '80vh'}}>
+        <section style={{height: '60vh'}}>
           <Bar />
         </section>
 
         <Resources />
-
-        {/* <Routes /> */}
         </div>
       </StyledApp>
     )
@@ -111,11 +110,10 @@ export default class App extends Component {
 }
 
 const StyledApp = styled.main`
-  border: 3px solid blue;
   display: flex;
   justify-content: center;
 
   #appContainer {
-    border: 3px solid red;
+    width: 50vw;
   }
 `

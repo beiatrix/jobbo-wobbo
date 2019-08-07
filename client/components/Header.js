@@ -4,33 +4,29 @@ import styled from 'styled-components'
 export const Header = props => {
   return (
     <StyledHeader>
-      {/* <h1>hello there</h1> */}
-      <div id="text">
+      <div id="headerContent">
         <h1>jobbo wobbo</h1>
-        <h2>
-          my name is beiatrix. i'm a software developer and visual designer.
-          this is a datavis of my job search in 2019.
-        </h2>
+        <h3>
+          my name is beiatrix. i'm a software engineer and visual designer.
+          this is a datavis of my journey to finding my first engineering job in 2019. 
+        </h3>
       </div>
     </StyledHeader>
   )
 }
 
 const StyledHeader = styled.header`
-  header {
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  
+  h1 {
+    color: var(--highlight);
   }
 
-  header h1 {
-    font-family: 'Righteous', 'Times New Roman', 'Times', serif;
-    margin-bottom: 2rem;
-  }
-
-  header #text {
-    width: 50vw;
+  #headerContent {
+    width: 40vw;
   }
 `

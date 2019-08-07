@@ -1,30 +1,32 @@
+@import url('https://fonts.googleapis.com/css?family=IBM+Plex+Mono|IBM+Plex+Serif|Libre+Caslon+Text|Open+Sans&display=swap');
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+:root {
+  --highlight: #f5d142;
+}
+
 body {
-  background: #A1FFCE;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to right, #FAFFD1, #A1FFCE);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to right, #FAFFD1, #A1FFCE); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  font-family: 'Work Sans', 'Helvetica', 'Arial', sans-serif;
+  background: #232526;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #414345, #232526);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #414345, #232526); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: white;
+  font-family: 'IBM Plex Mono', 'Helvetica', 'Arial', sans-serif;
   letter-spacing: 0.07rem;
   text-align: center;
 }
 
 h1 {
-  /* font-family: 'Righteous', 'Helvetica', 'Arial', sans-serif; */
-  font-size: 3rem;
+  font-family: 'IBM Plex Serif', 'Times New Roman', 'Times', serif;
+  font-size: 4rem;
+  margin-bottom: 2rem;  
 }
 
 p {
-  font-weight: 200;
-  /* font-family: 'Barlow Condensed', 'Helvetica', 'Arial', sans-serif; */
-}
-
-a {
-  font-family: 'Open Sans', 'Helvetica', 'Arial', sans-serif;
   font-weight: 300;
   color: inherit;
   opacity: 0.8;

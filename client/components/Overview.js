@@ -1,15 +1,13 @@
 import React from 'react'
-// import '../styles/Header.css'
-import {getMetric} from '../utils'
+import styled from 'styled-components'
+import { getMetric } from '../utils'
 
 export const Overview = props => {
   const {data} = props
 
   return (
-    <section>
-      <p>I applied to roles such as Software Engineer,</p>
-      <p>Fullstack Engineer, and Frontend Engineer</p>
-      <p>from February 11, 2019 to April 13, 2019.</p>
+    <StyledOverview>
+      <p>I applied to roles with the titles <span>Software Engineer</span>, Fullstack Engineer, and Frontend Engineer from February 11, 2019 to April 13, 2019.</p>
 
       <p>Out of {data.length} companies</p>
       <p>
@@ -22,6 +20,13 @@ export const Overview = props => {
       </p>
       <p>{getMetric(data, 'onsite')} on-site interviews</p>
       <p>and {getMetric(data, 'offer')} offers.</p>
-    </section>
+    </StyledOverview>
   )
 }
+
+const StyledOverview = styled.section`
+  span {
+    font-size: 1.5rem;
+    color: var(--highlight);
+  }
+`

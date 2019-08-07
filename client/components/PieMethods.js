@@ -7,7 +7,7 @@ import {methodData} from '../utils'
 // website examples showcase many properties, you'll often use just a few of them.
 export const PieMethods = props => {
   const {data} = props
-
+  console.log(data)
   return (
     <ResponsivePie
       data={methodData(data)}
