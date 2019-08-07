@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React, { useState, useEffect } from 'react'
 import axios from 'axios'
 import styled from 'styled-components'
 
@@ -10,26 +10,16 @@ import {
   Bar
 } from './components'
 
-export default class App extends Component {
-  constructor() {
-    super()
-    this.state = {
-      jobbos: []
+export default () => {
+  const [jobbos, setJobbos] = useState([])
+
+  useEffect(() => {
+    const fetchJobbos = async () => {
+      const { data } = await axios.get('/api/jobbos')
+      setJobbos(data)
     }
-  }
-
-  async componentDidMount() {
-    // get jobbos from server
-    const res = await axios.get('/api/jobbos')
-    const jobbos = res.data
-    // console.log(jobbos)
-    this.setState({jobbos})
-    // console.log('state', this.state)
-    // console.log('did it work?', methodData(this.state.jobbos))
-  }
-
-  render() {
-    const {jobbos} = this.state
+    fetchJobbos()
+  }, [setJobbos])
 
     return (
       <StyledApp>
@@ -107,7 +97,7 @@ export default class App extends Component {
       </StyledApp>
     )
   }
-}
+
 
 const StyledApp = styled.main`
   display: flex;
