@@ -3,7 +3,7 @@ import { ResponsiveBar } from 'nivo'
 
 const data = [
   {
-    country: 'AD',
+    country: 'internal reference',
     'hot dog': 85,
     'hot dogColor': 'hsl(118, 70%, 50%)',
     burger: 40,
@@ -18,7 +18,7 @@ const data = [
     donutColor: 'hsl(235, 70%, 50%)'
   },
   {
-    country: 'AE',
+    country: 'recruiter contacted me',
     'hot dog': 82,
     'hot dogColor': 'hsl(147, 70%, 50%)',
     burger: 112,
@@ -170,7 +170,7 @@ export const BarEffectiveness = props => (
       tickSize: 5,
       tickPadding: 5,
       tickRotation: 0,
-      legend: 'country',
+      legend: 'application',
       legendPosition: 'middle',
       legendOffset: 32
     }}
@@ -178,13 +178,13 @@ export const BarEffectiveness = props => (
       tickSize: 5,
       tickPadding: 5,
       tickRotation: 0,
-      legend: 'food',
+      legend: 'method',
       legendPosition: 'middle',
       legendOffset: -40
     }}
     labelSkipWidth={12}
     labelSkipHeight={12}
-    labelTextColor="inherit:darker(1.6)"
+    labelTextColor="white"
     animate={true}
     motionStiffness={90}
     motionDamping={15}

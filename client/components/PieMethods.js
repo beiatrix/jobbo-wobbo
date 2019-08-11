@@ -1,6 +1,6 @@
 import React from 'react'
-import {ResponsivePie} from 'nivo'
-import {methodData} from '../utils'
+import { ResponsivePie } from 'nivo'
+import { methodData } from '../utils'
 
 // make sure parent container have a defined height when using responsive component,
 // otherwise height will be 0 and no chart will be rendered.

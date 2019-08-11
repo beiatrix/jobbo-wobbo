@@ -7,7 +7,8 @@ import {
   Overview,
   Resources,
   PieContainer,
-  BarContainer
+  BarContainer,
+  RadarContainer
 } from './components'
 
 export default () => {
@@ -28,11 +29,7 @@ export default () => {
         <Overview data={jobbos} />
         <PieContainer data={jobbos} />
         <BarContainer />
-
-        {/*
-        RADAR
-          Of the 21 applications that led to next steps, 8 of them  led to on-sites. By far, the most effective method that led me to final round interviews with companies was the recruiting platform Triplebyte. This is also the method that landed me my first offer.
-        */}
+        <RadarContainer />
 
         {/*
         CALENDAR
