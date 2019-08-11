@@ -5,7 +5,9 @@ import { Calendar } from './Calendar'
 export const CalContainer = ({ data }) => {
     return (
         <StyledCalContainer>
-            <p>This calendar illuminates what my job-hunting activity looks like over time...</p>
+            <div className="text"> 
+                <p>This calendar illuminates what my job-hunting activity looks like over time...</p>
+            </div>
             <br />
             <div style={{height: '60vh'}}>
                 <Calendar data={data} />

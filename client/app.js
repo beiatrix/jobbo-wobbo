@@ -67,7 +67,12 @@ const StyledApp = styled.main`
   justify-content: center;
 
   #appContainer {
-    width: 50vw;
+    width: 80vw;
     overflow: visible;
+  }
+
+  .text {
+    width: 50vw;
+    margin: auto;
   }
 `

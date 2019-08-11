@@ -24,5 +24,7 @@ export const Overview = props => {
 
 const StyledOverview = styled.section`
   height: 30vh;
+  width: 50vw;
+  margin: auto;
   margin-bottom: 2rem;
 `
