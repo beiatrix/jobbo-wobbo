@@ -40,19 +40,26 @@ export default () => {
 
         {/*
       INSIGHTS GAINED
-        fastest way to propel yourself forward in job search is
-        1) by reaching out / getting through to real people - whether at hiring/networking events, or through recruiters reaching out to me. (SEO my linkedin, use buzzwords, change your title) cold applications on linkedin or angel list have an enormously lower turnout / probability of next steps.
-        2) triplebyte. i'm not being paid to say this -- triplebyte has been an immensely effective / phenomenal / superpower service for me as a software engineering candidate. upon passing their initial coding quiz, followed by a 2 hour remote technical screen, i matched with dozens of their partnering companies, from which i received/gleaned X% of my phone calls, X% of my on-sites, and ultimately X% of my offers. if the companies were out of state, triplebyte flies you out and covers 100% of the flight, accommodations, and uber transportation between interveiews, at no cost to the candidate. i cannot express enough how grateful i am to have had the opportunity to work with them.
-        3) study hard!!!
+        What insights have I gained from this experience? The most effective ways to propel yourself forward in the job search are:
+        1) By reaching out & getting through to real people - whether at hiring/networking events, or through recruiters reaching out to me. While it helps to finesse your LinkedIn SEO and have a strong online presence, cold applications on places like LinkedIn, AngelList, Indeed or Glassdoor have a significantly lower probability of leading to next steps. Also, lots of open positions are not actually even posted online on job boards. You have to get through to real people.
+        2) Triplebyte. I'm not being paid to say this -- Triplebyte has been an immensely effective service for me as a software engineering candidate. Upon passing their initial coding quiz, followed by a 2-hour remote technical screen, I matched with dozens of their partnering companies, from which I received/gleaned [_]% of my phone screens, [_]% of my on-sites, and ultimately [_]% of my offers. If any on-sites invitations happened to be out-of-state, Triplebyte covered 100% of the flight, accommodations, and Uber transportation between interveiews, at no cost to the candidate. I cannot express enough how grateful i am to have had the opportunity to work with them.
+        3) STUDY. Shouldn't need to be said, but you can't pass whiteboarding interviews if you don't practice. Know your data structures and algos. Literally get a whiteboard and practice the physical act of writing code by hand and talking through your thought processes out loud. Do not practice leetcode problems on your computer. Get a whiteboard.
 
-        out of all the above insights, there is one thread that ties them together, and it's PEOPLE. the best way to move forward in a company's job process is by talking to a real person (not a form on a website). i only discovered triplebyte because of word of mouth. and studying alone got me far, but i only truly rounded out my abilities as an interviewer by practicing communicating my thought processes out loud with a friend - we took turns interviewing algos with each other. this was key. the feedback i got from my interview partner allowed me to locate deficiencies in my communication and recalibrate / improve the clarity of my thoughts.
+        Out of all the above insights, there is one thread that ties them together, and it's PEOPLE. The best way to move forward in a company's job process is by talking to a real person (not a form on a website). I only discovered triplebyte because of word of mouth. Studying alone got me far enough, but I only truly rounded out my abilities as an interviewee by praticing algos with a friend -- taking turns as interviewer and interviewee -- to get used to externalizing my thoughts. This was key. The feedback I got from my interview partner allowed me to locate deficiencies in my communication and improve the clarity of my reasoning.
 
-        it's important to approach the job search with a holistic attitude. do what you need to do to stay healthy and positive. absolutely reach out to your friends (that professional gossip is more critical than you know). be resilient and flexible: success is defined by how many times you can hear the word "no," brush it off, and keep moving. studying is important, but take care of yourself too.
+        It's important to approach the job search with a holistic attitude. Do what you need to do to stay healthy and positive. Absolutely reach out to your friends (that professional tea is more critical than you know). Be resilient and flexible: success is defined by how many times you can hear the word "no," brush it off, and keep moving. Studying is important, but take care of yourself too.
 
-        below i've compiled a list of resources that i felt helped prepare me the most efficiently for engineering interviews
+        Below I've compiled a list of resources that I felt helped prepare me the most efficiently for engineering interviews.
 
-        at the risk of being cheesy, but v important (holistic, human being advice): stay positive, check in with your friends/loved ones, and take care of yourself.
-
+        I hope this was enlightening or at the very least entertaining to look at. For those of you who are looking for an engineering gig right now, don't give up, and try to have fun with in the process! Coding is cool. Meeting people is cool. Visiting different offices is cool, and if you're lucky, you might get to travel to new cities and see some new places along the way. [[[The less you treat interviews as major events and more as simple conversations, and the better off you'll be.]]] Every step you're taking is carrying you towards that next great opportunity. Carving out your career path is truly an adventure, so enjoy the journey!
+        
+        Happy hunting!
+        
+        - Beiatrix 
+        [SOCIALS]
+        [website]
+        [github]
+        [omg add this to beiatrix.github.io too]
       */}
 
         <Resources />
