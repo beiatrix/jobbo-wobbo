@@ -8,7 +8,8 @@ import {
   Resources,
   PieContainer,
   BarContainer,
-  RadarContainer
+  RadarContainer,
+  CalContainer
 } from './components'
 
 export default () => {
@@ -30,11 +31,7 @@ export default () => {
         <PieContainer data={jobbos} />
         <BarContainer />
         <RadarContainer />
-
-        {/*
-        CALENDAR
-          This calendar illuminates my what my job-hunting activity over time...
-      */}
+        <CalContainer />
 
         {/*
       MAP
