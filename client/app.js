@@ -9,6 +9,7 @@ import {
   BarContainer,
   RadarContainer,
   CalContainer,
+  MapContainer,
   Insights
 } from './components'
 
@@ -26,18 +27,17 @@ export default () => {
     return (
       <StyledApp>
         <div id="appContainer">
-        <Header />
-        <Overview data={jobbos} />
-        <PieContainer data={jobbos} />
-        <BarContainer />
-        <RadarContainer />
-        <CalContainer />
-
-        {/*
-      MAP
-      And this map shows where my on-site interviews were located.
-      */}
-        <Insights />
+          <Header />
+          <h2>what have i done?</h2>
+          <Overview data={jobbos} />
+          <h2>how did i do it?</h2>
+          <PieContainer data={jobbos} />
+          <BarContainer />
+          <RadarContainer />
+          <CalContainer />
+          <MapContainer />
+          <h2>what did i learn?</h2>
+          <Insights />
         </div>
       </StyledApp>
     )
@@ -49,7 +49,6 @@ const StyledApp = styled.main`
 
   #appContainer {
     width: 80vw;
-    overflow: visible;
   }
 
   .text {

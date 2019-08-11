@@ -9,13 +9,13 @@ export const Insights = props => {
       </p>
       <ol>
         <li>
-          1) By reaching out & getting through to real people - whether at hiring/networking events, or through recruiters reaching out to me. While it helps to finesse your LinkedIn SEO and have a strong online presence, cold applications on places like LinkedIn, AngelList, Indeed or Glassdoor have a significantly lower probability of leading to next steps. Also, lots of open positions are not actually even posted online on job boards. You have to get through to real people.
+          By reaching out & getting through to real people - whether at hiring/networking events, or through recruiters reaching out to me. While it helps to finesse your LinkedIn SEO and have a strong online presence, cold applications on places like LinkedIn, AngelList, Indeed or Glassdoor have a significantly lower probability of leading to next steps. Also, lots of open positions are not actually even posted online on job boards. You have to get through to real people.
         </li>
         <li>
-          2) Triplebyte. I'm not being paid to say this -- Triplebyte has been an immensely effective service for me as a software engineering candidate. Upon passing their initial coding quiz, followed by a 2-hour remote technical screen, I matched with dozens of their partnering companies, from which I received/gleaned [_]% of my phone screens, [_]% of my on-sites, and ultimately [_]% of my offers. If any on-sites invitations happened to be out-of-state, Triplebyte covered 100% of the flight, accommodations, and Uber transportation between interveiews, at no cost to the candidate. I cannot express enough how grateful i am to have had the opportunity to work with them.
+          Triplebyte. I'm not being paid to say this -- Triplebyte has been an immensely effective service for me as a software engineering candidate. Upon passing their initial coding quiz, followed by a 2-hour remote technical screen, I matched with dozens of their partnering companies, from which I received/gleaned [_]% of my phone screens, [_]% of my on-sites, and ultimately [_]% of my offers. If any on-sites invitations happened to be out-of-state, Triplebyte covered 100% of the flight, accommodations, and Uber transportation between interveiews, at no cost to the candidate. I cannot express enough how grateful i am to have had the opportunity to work with them.
         </li>
         <li>
-          3) STUDY. Shouldn't need to be said, but you can't pass whiteboarding interviews if you don't practice. Know your data structures and algos. Literally get a whiteboard and practice the physical act of writing code by hand and talking through your thought processes out loud. Do not practice leetcode problems on your computer. Get a whiteboard.
+          STUDY. Shouldn't need to be said, but you can't pass whiteboarding interviews if you don't practice. Know your data structures and algos. Literally get a whiteboard and practice the physical act of writing code by hand and talking through your thought processes out loud. Do not practice leetcode problems on your computer. Get a whiteboard.
         </li>
       </ol>
       <p>
@@ -54,7 +54,7 @@ export const Insights = props => {
 const StyledInsights = styled.section`
   width: 50vw;
   margin: auto;
-  
+
   p {
     margin-bottom: 1rem;
   }
