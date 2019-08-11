@@ -7,7 +7,7 @@ import {
   Overview,
   Resources,
   PieContainer,
-  Bar
+  BarContainer
 } from './components'
 
 export default () => {
@@ -26,15 +26,11 @@ export default () => {
         <div id="appContainer">
         <Header />
         <Overview data={jobbos} />
-        {/* SHOULD BE A BAR */}
         <PieContainer data={jobbos} />
-        {/*
-        RADAR
-          And this is how effective each of those 9 methods were. Of the 67 applications I sent, [21] led to any next steps at all (whether a phone call, technical screen, or even an on-site). 
-        */}
+        <BarContainer />
 
         {/*
-        SHOULD BE A PIE
+        RADAR
           Of the 21 applications that led to next steps, 8 of them  led to on-sites. By far, the most effective method that led me to final round interviews with companies was the recruiting platform Triplebyte. This is also the method that landed me my first offer.
         */}
 
@@ -64,10 +60,6 @@ export default () => {
         at the risk of being cheesy, but v important (holistic, human being advice): stay positive, check in with your friends/loved ones, and take care of yourself.
 
       */}
-
-        <section style={{height: '60vh'}}>
-          <Bar />
-        </section>
 
         <Resources />
         </div>

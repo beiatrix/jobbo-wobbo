@@ -6,5 +6,5 @@
 export { Header } from './Header'
 export { Overview } from './Overview'
 export { PieContainer } from './PieContainer'
+export { BarContainer } from './BarContainer'
 export { Resources } from './Resources'
-export { Bar } from './Bar'

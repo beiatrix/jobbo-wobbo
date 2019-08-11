@@ -6,8 +6,9 @@ export const PieContainer = ({ data }) => {
     return (
         <StyledPieContainer>
             <p>These were the 9 methods I used to apply to companies.</p>
+            <br />
             <div style={{height: '60vh'}}>
-            <PieMethods data={data} />
+                <PieMethods data={data} />
             </div>
          </StyledPieContainer>
     )
